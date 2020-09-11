@@ -46,21 +46,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nio/src/main/java/com/miaoqi/atguigu/nio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservicecloud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microservicecloud" />
       <recent name="$PROJECT_DIR$/nio/src/main/java/com/miaoqi/atguigu/nio" />
       <recent name="$PROJECT_DIR$/nio" />
       <recent name="$PROJECT_DIR$/jvm" />
       <recent name="$PROJECT_DIR$/juc" />
-      <recent name="$PROJECT_DIR$/java9/src/main/java" />
     </key>
   </component>
   <component name="RunManager">
@@ -101,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599842064204</updated>
-      <workItem from="1599842065229" duration="350000" />
+      <workItem from="1599842065229" duration="1749000" />
     </task>
     <servers />
   </component>
@@ -113,17 +113,17 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="208" y="23" width="1024" height="822" key="#Project_Structure/0.23.1440.822@0.23.1440.822" timestamp="1599842195978" />
-    <state x="208" y="23" width="1024" height="822" key="SettingsEditor" timestamp="1599842365394">
+    <state x="208" y="23" width="1024" height="822" key="SettingsEditor" timestamp="1599845604725">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="208" y="23" width="1024" height="822" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1599842365394" />
+    <state x="208" y="23" width="1024" height="822" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1599845604725" />
     <state x="341" y="333" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599842409517">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="341" y="333" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.822@0.23.1440.822" timestamp="1599842409517" />
-    <state x="0" y="56" key="new project wizard" timestamp="1599842363346">
+    <state x="0" y="56" key="new project wizard" timestamp="1599845601380">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="0" y="56" key="new project wizard/0.23.1440.822@0.23.1440.822" timestamp="1599842363346" />
+    <state x="0" y="56" key="new project wizard/0.23.1440.822@0.23.1440.822" timestamp="1599845601380" />
   </component>
 </project>
