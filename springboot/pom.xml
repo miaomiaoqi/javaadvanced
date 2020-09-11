@@ -21,6 +21,22 @@
         <module>spring-boot-02-config-02</module>
         <module>spring-boot-02-config-autoconfig</module>
         <module>spring-boot-03-logging</module>
+        <module>spring-boot-04-web-restfulcrud</module>
+        <module>spring-boot-06-data-jdbc</module>
+        <module>spring-boot-06-data-jpa</module>
+        <module>spring-boot-06-data-mybatis</module>
+        <module>spring-boot-07-cache</module>
+        <module>spring-boot-08-amqp</module>
+        <module>spring-boot-09-elastic</module>
+        <module>spring-boot-10-task</module>
+        <module>spring-boot-11-security</module>
+        <module>spring-boot-12-actuator</module>
+        <module>spring-boot-13-starter-test</module>
+        <module>spring-boot-14-aop</module>
+        <module>spring-boot-15-param-parser</module>
+        <module>spring-boot-datasource-autoconfiguration</module>
+        <module>spring-boot-quartz-first</module>
+        <module>spring-boot-quartz-second</module>
     </modules>
 
 </project>
