@@ -46,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservicecloud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -56,11 +56,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springboot" />
       <recent name="$PROJECT_DIR$/microservicecloud" />
       <recent name="$PROJECT_DIR$/nio/src/main/java/com/miaoqi/atguigu/nio" />
       <recent name="$PROJECT_DIR$/nio" />
       <recent name="$PROJECT_DIR$/jvm" />
-      <recent name="$PROJECT_DIR$/juc" />
     </key>
   </component>
   <component name="RunManager">
@@ -83,6 +83,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConsumerUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.user.ConsumerUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -101,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599842064204</updated>
-      <workItem from="1599842065229" duration="3461000" />
+      <workItem from="1599842065229" duration="4490000" />
     </task>
     <servers />
   </component>

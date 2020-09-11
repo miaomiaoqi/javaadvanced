@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot/consumer-user/consumer-user.iml" filepath="$PROJECT_DIR$/springboot/consumer-user/consumer-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/java8/java8.iml" filepath="$PROJECT_DIR$/java8/java8.iml" />
       <module fileurl="file://$PROJECT_DIR$/java9/java9.iml" filepath="$PROJECT_DIR$/java9/java9.iml" />
       <module fileurl="file://$PROJECT_DIR$/juc/juc.iml" filepath="$PROJECT_DIR$/juc/juc.iml" />
