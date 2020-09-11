@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/java9/pom.xml" />
         <option value="$PROJECT_DIR$/nio/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot/pom.xml" />
       </list>
     </option>
   </component>
