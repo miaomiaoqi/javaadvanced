@@ -90,6 +90,167 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DataSourceAutoConfigurationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-datasource-autoconfiguration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.springboot.datasource.autoconfiguration.DataSourceAutoConfigurationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-01-helloworld" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.HelloWorldMainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderTicketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider-ticket" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.ticket.ProviderTicketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot01HelloworldQuickApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-01-helloworld-quick" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.springboot.SpringBoot01HelloworldQuickApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot02Config02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-02-config-02" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.springboot02config02.SpringBoot02Config02Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot02ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-02-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.springboot.SpringBoot02ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot02ConfigAutoconfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-02-config-autoconfig" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.maioqi.springboot.SpringBoot02ConfigAutoconfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot03LoggingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-03-logging" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.springboot03.SpringBoot03LoggingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot04WebRestfulcrudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-04-web-restfulcrud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.springboot.SpringBoot04WebRestfulcrudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot06DataJdbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-06-data-jdbc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.springboot.SpringBoot06DataJdbcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot06DataJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-06-data-jpa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.springboot.SpringBoot06DataJpaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot06DataMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-06-data-mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.springboot.SpringBoot06DataMybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot07CacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-07-cache" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.cache.SpringBoot07CacheApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot08AmqpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-08-amqp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.amqp.SpringBoot08AmqpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot09ElasticApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-09-elastic" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.elastic.SpringBoot09ElasticApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot10TaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-10-task" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.task.SpringBoot10TaskApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot11SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-11-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.security.SpringBoot11SecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot12ActuatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-12-actuator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.actuator.SpringBoot12ActuatorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot13StarterTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-13-starter-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.SpringBoot13StarterTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot14ErrorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-14-aop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.SpringBoot14ErrorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot15ParamParserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-15-param-parser" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.SpringBoot15ParamParserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootQuartzFirstApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-quartz-first" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.springboot.springbootquartz.SpringBootQuartzFirstApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootQuartzSecondApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-quartz-second" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoqi.springboot.springbootquartz.SpringBootQuartzSecondApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -108,7 +269,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599842064204</updated>
-      <workItem from="1599842065229" duration="4568000" />
+      <workItem from="1599842065229" duration="4854000" />
     </task>
     <servers />
   </component>

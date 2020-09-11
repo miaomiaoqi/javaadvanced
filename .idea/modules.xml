@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/java9/java9.iml" filepath="$PROJECT_DIR$/java9/java9.iml" />
       <module fileurl="file://$PROJECT_DIR$/juc/juc.iml" filepath="$PROJECT_DIR$/juc/juc.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvm/jvm.iml" filepath="$PROJECT_DIR$/jvm/jvm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/miaoqi-spring-boot-starter/miaoqi-spring-boot-starter.iml" filepath="$PROJECT_DIR$/springboot/miaoqi-spring-boot-starter/miaoqi-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/miaoqi-spring-boot-starter-autoconfigurer/miaoqi-spring-boot-starter-autoconfigurer.iml" filepath="$PROJECT_DIR$/springboot/miaoqi-spring-boot-starter-autoconfigurer/miaoqi-spring-boot-starter-autoconfigurer.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud/microservicecloud.iml" filepath="$PROJECT_DIR$/microservicecloud/microservicecloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud/microservicecloud-api/microservicecloud-api.iml" filepath="$PROJECT_DIR$/microservicecloud/microservicecloud-api/microservicecloud-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud/microservicecloud-config-3344/microservicecloud-config-3344.iml" filepath="$PROJECT_DIR$/microservicecloud/microservicecloud-config-3344/microservicecloud-config-3344.iml" />
@@ -25,6 +27,29 @@
       <module fileurl="file://$PROJECT_DIR$/microservicecloud/microservicecloud-provider-dept-hystrix-8001/microservicecloud-provider-dept-hystrix-8001.iml" filepath="$PROJECT_DIR$/microservicecloud/microservicecloud-provider-dept-hystrix-8001/microservicecloud-provider-dept-hystrix-8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud/microservicecloud-zuul-gateway-9527/microservicecloud-zuul-gateway-9527.iml" filepath="$PROJECT_DIR$/microservicecloud/microservicecloud-zuul-gateway-9527/microservicecloud-zuul-gateway-9527.iml" />
       <module fileurl="file://$PROJECT_DIR$/nio/nio.iml" filepath="$PROJECT_DIR$/nio/nio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/provider-ticket/provider-ticket.iml" filepath="$PROJECT_DIR$/springboot/provider-ticket/provider-ticket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-01-helloworld/spring-boot-01-helloworld.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-01-helloworld/spring-boot-01-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-01-helloworld-quick/spring-boot-01-helloworld-quick.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-01-helloworld-quick/spring-boot-01-helloworld-quick.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-02-config/spring-boot-02-config.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-02-config/spring-boot-02-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-02-config-02/spring-boot-02-config-02.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-02-config-02/spring-boot-02-config-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-02-config-autoconfig/spring-boot-02-config-autoconfig.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-02-config-autoconfig/spring-boot-02-config-autoconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-03-logging/spring-boot-03-logging.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-03-logging/spring-boot-03-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-04-web-restfulcrud/spring-boot-04-web-restfulcrud.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-04-web-restfulcrud/spring-boot-04-web-restfulcrud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-06-data-jdbc/spring-boot-06-data-jdbc.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-06-data-jdbc/spring-boot-06-data-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-06-data-jpa/spring-boot-06-data-jpa.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-06-data-jpa/spring-boot-06-data-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-06-data-mybatis/spring-boot-06-data-mybatis.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-06-data-mybatis/spring-boot-06-data-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-07-cache/spring-boot-07-cache.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-07-cache/spring-boot-07-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-08-amqp/spring-boot-08-amqp.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-08-amqp/spring-boot-08-amqp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-09-elastic/spring-boot-09-elastic.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-09-elastic/spring-boot-09-elastic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-10-task/spring-boot-10-task.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-10-task/spring-boot-10-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-11-security/spring-boot-11-security.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-11-security/spring-boot-11-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-12-actuator/spring-boot-12-actuator.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-12-actuator/spring-boot-12-actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-13-starter-test/spring-boot-13-starter-test.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-13-starter-test/spring-boot-13-starter-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-14-aop/spring-boot-14-aop.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-14-aop/spring-boot-14-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-15-param-parser/spring-boot-15-param-parser.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-15-param-parser/spring-boot-15-param-parser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-datasource-autoconfiguration/spring-boot-datasource-autoconfiguration.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-datasource-autoconfiguration/spring-boot-datasource-autoconfiguration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-quartz-first/spring-boot-quartz-first.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-quartz-first/spring-boot-quartz-first.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/spring-boot-quartz-second/spring-boot-quartz-second.iml" filepath="$PROJECT_DIR$/springboot/spring-boot-quartz-second/spring-boot-quartz-second.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot/springboot.iml" filepath="$PROJECT_DIR$/springboot/springboot.iml" />
     </modules>
   </component>
