@@ -1,6 +1,6 @@
 package com.miaoqi.atguigu.nio.day01;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
