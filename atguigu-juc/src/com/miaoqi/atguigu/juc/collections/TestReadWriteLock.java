@@ -1,4 +1,4 @@
-package com.miaoqi.atguigu.juc.day02;
+package com.miaoqi.atguigu.juc.collections;
 
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;

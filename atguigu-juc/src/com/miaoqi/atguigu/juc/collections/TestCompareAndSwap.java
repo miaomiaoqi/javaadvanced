@@ -1,4 +1,4 @@
-package com.miaoqi.atguigu.juc.day01;
+package com.miaoqi.atguigu.juc.collections;
 
 /*
  * 模拟 CAS 算法

@@ -1,7 +1,5 @@
 package concurrency.example.singleton;
 
-import com.miaoqi.concurrency.annotations.NotThreadSafe;
-
 /**
  * 安全发布对象
  * 懒汉模式, 单实例在第一次访问的时候才初始化对象
@@ -9,7 +7,6 @@ import com.miaoqi.concurrency.annotations.NotThreadSafe;
  * @author miaoqi
  * @date 2018/11/8
  */
-@NotThreadSafe
 public class SingletonExample1 {
 
     // 私有构造函数
@@ -21,7 +18,7 @@ public class SingletonExample1 {
 
     // 静态工厂方法获取单例对象
     public static SingletonExample1 getInstance() {
-        // 这里不安全
+        // 这里不安全, 多线程环境下有问题
         if (instance == null) {
             instance = new SingletonExample1();
         }

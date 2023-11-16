@@ -1,4 +1,4 @@
-package com.miaoqi.atguigu.juc.day02;
+package com.miaoqi.atguigu.juc.collections;
 
 /*
  * 生产者和消费者案例

@@ -1,4 +1,4 @@
-package com.miaoqi.atguigu.juc.day01;
+package com.miaoqi.atguigu.juc.blockqueue;
 
 import java.util.concurrent.CountDownLatch;
 

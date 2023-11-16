@@ -1,7 +1,5 @@
 package concurrency.example.singleton;
 
-import com.miaoqi.concurrency.annotations.ThreadSafe;
-
 /**
  * 安全发布对象
  * 饿汉模式, 单实例在类装载的时候就创建对象
@@ -9,7 +7,6 @@ import com.miaoqi.concurrency.annotations.ThreadSafe;
  * @author miaoqi
  * @date 2018/11/8
  */
-@ThreadSafe
 public class SingletonExample6 {
 
     // 私有构造函数

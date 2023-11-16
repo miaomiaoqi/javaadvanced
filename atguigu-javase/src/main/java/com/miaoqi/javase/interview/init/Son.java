@@ -29,6 +29,7 @@ public class Son extends Father {
 
     Son() {
         // super(); // 写或不写都在, 在子类构造器中一定会调用父类的构造器
+        // 此时会先执行 super()方法, 然后非静态成员变量赋值和非静态构造代码块顺序执行, 然后再往下执行
         System.out.print("(7)");
     }
 
