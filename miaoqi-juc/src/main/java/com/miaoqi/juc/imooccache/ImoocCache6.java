@@ -1,13 +1,14 @@
 package com.miaoqi.juc.imooccache;
 
-import com.miaoqi.imooc.concurrency.tools.imooccache.computable.Computable;
-import com.miaoqi.imooc.concurrency.tools.imooccache.computable.ExpensiveFunction;
+
+import com.miaoqi.juc.imooccache.computable.Computable;
+import com.miaoqi.juc.imooccache.computable.ExpensiveFunction;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * 描述：     缩小了synchronized的粒度，提高性能，但是依然并发不安全
+ * 描述: 缩小了synchronized的粒度，提高性能，但是依然并发不安全
  */
 public class ImoocCache6<A, V> implements Computable<A, V> {
 

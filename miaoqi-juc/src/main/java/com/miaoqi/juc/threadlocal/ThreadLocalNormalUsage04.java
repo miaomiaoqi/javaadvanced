@@ -6,7 +6,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 描述：     加锁来解决线程安全问题
+ * 描述: 加锁来解决线程安全问题
  */
 public class ThreadLocalNormalUsage04 {
 

@@ -3,7 +3,7 @@ package com.miaoqi.juc.atmoic;
 import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
 
 /**
- * 描述：     演示AtomicIntegerFieldUpdater的用法
+ * 描述: 演示AtomicIntegerFieldUpdater的用法
  */
 public class AtomicIntegerFieldUpdaterDemo implements Runnable{
 

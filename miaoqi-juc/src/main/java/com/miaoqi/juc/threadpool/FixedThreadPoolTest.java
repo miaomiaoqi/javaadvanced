@@ -4,7 +4,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 描述：     演示newFixedThreadPool
+ * 描述: 演示newFixedThreadPool
  */
 public class FixedThreadPoolTest {
 

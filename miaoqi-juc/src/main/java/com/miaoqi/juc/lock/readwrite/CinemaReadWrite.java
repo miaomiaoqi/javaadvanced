@@ -3,7 +3,7 @@ package com.miaoqi.juc.lock.readwrite;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- * 描述：     TODO
+ * 描述: TODO
  */
 public class CinemaReadWrite {
 

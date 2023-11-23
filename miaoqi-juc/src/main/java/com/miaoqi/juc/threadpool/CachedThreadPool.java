@@ -4,7 +4,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 描述：     TODO
+ * 描述: TODO
  */
 public class CachedThreadPool {
 

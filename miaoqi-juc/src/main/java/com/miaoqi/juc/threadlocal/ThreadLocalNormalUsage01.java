@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * 描述：     10个线程打印日期
+ * 描述: 10个线程打印日期
  */
 public class ThreadLocalNormalUsage01 {
 

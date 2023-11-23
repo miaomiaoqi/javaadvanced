@@ -1,4 +1,4 @@
-package com.miaoqi.juc.collections;
+package com.miaoqi.juc.threadpool;
 
 import java.util.Random;
 import java.util.concurrent.Callable;

@@ -1,7 +1,7 @@
 package com.miaoqi.juc.cas;
 
 /**
- * 描述：     模拟CAS操作，等价代码
+ * 描述: 模拟CAS操作，等价代码
  */
 public class SimulatedCAS {
 

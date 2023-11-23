@@ -1,4 +1,4 @@
-package com.miaoqi.juc.collections;
+package com.miaoqi.juc.jmm;
 
 /*
  * 模拟 CAS 算法

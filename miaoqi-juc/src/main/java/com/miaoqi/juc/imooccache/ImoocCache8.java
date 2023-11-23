@@ -1,7 +1,8 @@
 package com.miaoqi.juc.imooccache;
 
-import com.miaoqi.imooc.concurrency.tools.imooccache.computable.Computable;
-import com.miaoqi.imooc.concurrency.tools.imooccache.computable.ExpensiveFunction;
+
+import com.miaoqi.juc.imooccache.computable.Computable;
+import com.miaoqi.juc.imooccache.computable.ExpensiveFunction;
 
 import java.util.Map;
 import java.util.concurrent.Callable;
@@ -10,7 +11,7 @@ import java.util.concurrent.Future;
 import java.util.concurrent.FutureTask;
 
 /**
- * 描述：     利用Future，避免重复计算
+ * 描述: 利用Future，避免重复计算
  */
 public class ImoocCache8<A, V> implements Computable<A, V> {
 

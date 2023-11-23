@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 描述：     演示Map的基本用法
+ * 描述: 演示Map的基本用法
  */
 public class MapDemo {
 

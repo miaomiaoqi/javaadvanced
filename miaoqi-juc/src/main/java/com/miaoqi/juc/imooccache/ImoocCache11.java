@@ -5,5 +5,4 @@ package com.miaoqi.juc.imooccache;
  */
 public class ImoocCache11 {
 
-
 }

@@ -1,7 +1,7 @@
 package com.miaoqi.juc.immutable;
 
 /**
- * 描述：     final的方法
+ * 描述: final的方法
  */
 public class FinalMethodDemo {
 

@@ -1,7 +1,7 @@
 package com.miaoqi.juc.threadlocal;
 
 /**
- * 描述：     TODO
+ * 描述: TODO
  */
 public class ThreadLocalNPE {
 

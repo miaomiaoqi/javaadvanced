@@ -1,4 +1,4 @@
-package com.miaoqi.juc.collections;
+package com.miaoqi.juc.lock;
 
 /*
  * 生产者和消费者案例
@@ -20,7 +20,7 @@ public class TestProductorAndConsumer {
 
 }
 
-//店员
+// 店员
 class Clerk {
     private int product = 0;
 
@@ -40,7 +40,7 @@ class Clerk {
         this.notifyAll();
     }
 
-    //卖货
+    // 卖货
     public synchronized void sale() {//product = 0; 循环次数：0
         while (product <= 0) {
             System.out.println("缺货！");
@@ -77,7 +77,7 @@ class Productor implements Runnable {
     }
 }
 
-//消费者
+// 消费者
 class Consumer implements Runnable {
     private Clerk clerk;
 

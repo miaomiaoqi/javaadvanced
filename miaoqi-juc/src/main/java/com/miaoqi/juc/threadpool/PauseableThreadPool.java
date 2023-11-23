@@ -10,7 +10,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * 描述：     演示每个任务执行前后放钩子函数
+ * 描述: 演示每个任务执行前后放钩子函数
  */
 public class PauseableThreadPool extends ThreadPoolExecutor {
 

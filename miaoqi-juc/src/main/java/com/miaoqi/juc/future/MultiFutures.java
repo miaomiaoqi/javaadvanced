@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 /**
- * 描述：     演示批量提交任务时，用List来批量接收结果
+ * 描述: 演示批量提交任务时，用List来批量接收结果
  */
 public class MultiFutures {
 

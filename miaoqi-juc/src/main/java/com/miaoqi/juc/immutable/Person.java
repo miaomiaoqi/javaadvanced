@@ -1,7 +1,7 @@
 package com.miaoqi.juc.immutable;
 
 /**
- * 描述：     不可变的对象，演示其他类无法修改这个对象，public也不行
+ * 描述: 不可变的对象，演示其他类无法修改这个对象，public也不行
  */
 public class Person {
 

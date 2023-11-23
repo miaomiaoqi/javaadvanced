@@ -1,10 +1,10 @@
-package com.miaoqi.juc.collections;
+package com.miaoqi.juc.lock;
 
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /*
- * 1. ReadWriteLock : 读写锁
+ * 1. ReadWriteLock: 读写锁
  *
  * 写写/读写 需要“互斥”
  * 读读 不需要互斥

@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
- * 描述：     对比两个迭代器
+ * 描述: 对比两个迭代器
  */
 public class CopyOnWriteArrayListDemo2 {
 

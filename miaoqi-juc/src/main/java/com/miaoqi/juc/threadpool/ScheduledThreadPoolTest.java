@@ -5,7 +5,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 描述：     TODO
+ * 描述: TODO
  */
 public class ScheduledThreadPoolTest {
 

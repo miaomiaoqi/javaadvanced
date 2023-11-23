@@ -1,7 +1,7 @@
 package com.miaoqi.juc.immutable;
 
 /**
- * 描述：     测试final能否被修改
+ * 描述: 测试final能否被修改
  */
 public class TestFinal {
 

@@ -1,7 +1,8 @@
 package com.miaoqi.juc.imooccache;
 
-import com.miaoqi.imooc.concurrency.tools.imooccache.computable.Computable;
-import com.miaoqi.imooc.concurrency.tools.imooccache.computable.MayFail;
+
+import com.miaoqi.juc.imooccache.computable.Computable;
+import com.miaoqi.juc.imooccache.computable.MayFail;
 
 import java.util.Map;
 import java.util.concurrent.Callable;
@@ -15,7 +16,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 描述：     出于安全性考虑，缓存需要设置有效期，到期自动失效，否则如果缓存一直不失效，那么带来缓存不一致等问题
+ * 描述: 出于安全性考虑，缓存需要设置有效期，到期自动失效，否则如果缓存一直不失效，那么带来缓存不一致等问题
  */
 public class ImoocCache10<A, V> implements Computable<A, V> {
 

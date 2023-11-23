@@ -4,7 +4,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 描述：     演示newFixedThreadPool出错的情况
+ * 描述: 演示newFixedThreadPool出错的情况
  */
 public class FixedThreadPoolOOM {
 

@@ -1,4 +1,4 @@
-package com.miaoqi.juc.collections;
+package com.miaoqi.juc.threadpool;
 
 import java.util.ArrayList;
 import java.util.List;

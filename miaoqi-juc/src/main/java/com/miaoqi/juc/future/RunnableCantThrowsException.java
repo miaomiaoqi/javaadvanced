@@ -1,7 +1,7 @@
 package com.miaoqi.juc.future;
 
 /**
- * 描述：     在run方法中无法抛出checked Exception
+ * 描述: 在run方法中无法抛出checked Exception
  */
 public class RunnableCantThrowsException {
 

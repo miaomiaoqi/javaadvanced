@@ -1,7 +1,7 @@
 package com.miaoqi.juc.immutable;
 
 /**
- * 描述：     TODO
+ * 描述: TODO
  */
 public class FinalStringDemo2 {
 

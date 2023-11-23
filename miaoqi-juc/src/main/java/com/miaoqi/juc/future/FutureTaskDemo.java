@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.FutureTask;
 
 /**
- * 描述：     演示FutureTask的用法
+ * 描述: 演示FutureTask的用法
  */
 public class FutureTaskDemo {
 

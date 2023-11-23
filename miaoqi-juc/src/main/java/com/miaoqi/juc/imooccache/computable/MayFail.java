@@ -3,7 +3,7 @@ package com.miaoqi.juc.imooccache.computable;
 import java.io.IOException;
 
 /**
- * 描述：     耗时计算的实现类，有概率计算失败
+ * 描述: 耗时计算的实现类，有概率计算失败
  */
 public class MayFail implements Computable<String, Integer> {
 

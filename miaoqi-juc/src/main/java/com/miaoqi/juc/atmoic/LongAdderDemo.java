@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.LongAdder;
 
 /**
- * 描述：     演示高并发场景下，LongAdder比AtomicLong性能好
+ * 描述: 演示高并发场景下，LongAdder比AtomicLong性能好
  */
 public class LongAdderDemo {
 

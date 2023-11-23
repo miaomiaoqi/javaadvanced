@@ -1,7 +1,7 @@
 package com.miaoqi.juc.threadpool;
 
 /**
- * 描述：     TODO
+ * 描述: TODO
  */
 public class ForLoop {
 

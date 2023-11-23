@@ -4,7 +4,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 描述：     演示关闭线程池
+ * 描述: 演示关闭线程池
  */
 public class ShutDown {
 

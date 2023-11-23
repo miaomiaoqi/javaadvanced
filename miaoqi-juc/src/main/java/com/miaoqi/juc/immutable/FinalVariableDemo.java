@@ -1,7 +1,7 @@
 package com.miaoqi.juc.immutable;
 
 /**
- * 描述：     演示final变量
+ * 描述: 演示final变量
  */
 public class FinalVariableDemo {
 

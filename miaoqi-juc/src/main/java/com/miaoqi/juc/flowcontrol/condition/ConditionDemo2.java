@@ -6,7 +6,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * 描述：     演示用Condition实现生产者消费者模式
+ * 描述: 演示用Condition实现生产者消费者模式
  */
 public class ConditionDemo2 {
 

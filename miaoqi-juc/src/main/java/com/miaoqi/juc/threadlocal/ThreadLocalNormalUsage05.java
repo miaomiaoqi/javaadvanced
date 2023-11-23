@@ -6,7 +6,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 描述：     利用ThreadLocal，给每个线程分配自己的dateFormat对象，保证了线程安全，高效利用内存
+ * 描述: 利用ThreadLocal，给每个线程分配自己的dateFormat对象，保证了线程安全，高效利用内存
  */
 public class ThreadLocalNormalUsage05 {
 

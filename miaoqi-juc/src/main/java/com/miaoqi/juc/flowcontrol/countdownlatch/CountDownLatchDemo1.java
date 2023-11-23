@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 描述：     工厂中，质检，5个工人检查，所有人都认为通过，才通过
+ * 描述: 工厂中，质检，5个工人检查，所有人都认为通过，才通过
  */
 public class CountDownLatchDemo1 {
 

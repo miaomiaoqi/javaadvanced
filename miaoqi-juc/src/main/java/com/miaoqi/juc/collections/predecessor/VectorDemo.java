@@ -3,7 +3,7 @@ package com.miaoqi.juc.collections.predecessor;
 import java.util.Vector;
 
 /**
- * 描述：     演示Vector，主要是看Vector源码
+ * 描述: 演示Vector，主要是看Vector源码
  */
 public class VectorDemo {
 

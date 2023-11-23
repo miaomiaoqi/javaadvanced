@@ -1,7 +1,7 @@
 package com.miaoqi.juc.imooccache;
 
 
-import com.miaoqi.imooc.concurrency.tools.imooccache.computable.ExpensiveFunction;
+import com.miaoqi.juc.imooccache.computable.ExpensiveFunction;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -11,7 +11,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 描述：     TODO
+ * 描述: TODO
  */
 public class ImoocCache12 {
 
@@ -49,13 +49,13 @@ public class ImoocCache12 {
 class ThreadSafeFormatter {
 
     public static ThreadLocal<SimpleDateFormat> dateFormatter = new ThreadLocal<SimpleDateFormat>() {
-        //每个线程会调用本方法一次，用于初始化
+        // 每个线程会调用本方法一次，用于初始化
         @Override
         protected SimpleDateFormat initialValue() {
             return new SimpleDateFormat("mm:ss");
         }
 
-        //首次调用本方法时，会调用initialValue()；后面的调用会返回第一次创建的值
+        // 首次调用本方法时，会调用initialValue()；后面的调用会返回第一次创建的值
         @Override
         public SimpleDateFormat get() {
             return super.get();

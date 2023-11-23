@@ -3,7 +3,7 @@ package com.miaoqi.juc.lock.spinlock;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**
- * 描述：     自旋锁
+ * 描述: 自旋锁
  */
 public class SpinLock {
 

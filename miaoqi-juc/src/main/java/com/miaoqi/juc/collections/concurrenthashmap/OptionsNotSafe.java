@@ -3,7 +3,7 @@ package com.miaoqi.juc.collections.concurrenthashmap;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * 描述：     组合操作并不保证线程安全
+ * 描述: 组合操作并不保证线程安全
  */
 public class OptionsNotSafe implements Runnable {
 

@@ -3,7 +3,7 @@ package com.miaoqi.juc.collections.predecessor;
 import java.util.Hashtable;
 
 /**
- * 描述：     TODO
+ * 描述: TODO
  */
 public class HashtableDemo {
 

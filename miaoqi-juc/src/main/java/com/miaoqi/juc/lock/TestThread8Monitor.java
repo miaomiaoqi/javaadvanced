@@ -1,4 +1,4 @@
-package com.miaoqi.juc.collections;
+package com.miaoqi.juc.lock;
 
 /*
  * 题目：判断打印的 "one" or "two" ？

@@ -4,7 +4,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * 描述：     TODO
+ * 描述: TODO
  */
 public class LockInterruptibly implements Runnable {
 

@@ -6,7 +6,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 描述：     1000个打印日期的任务，用线程池来执行
+ * 描述: 1000个打印日期的任务，用线程池来执行
  */
 public class ThreadLocalNormalUsage03 {
 

@@ -3,7 +3,7 @@ package com.miaoqi.juc.atmoic;
 import java.util.concurrent.atomic.AtomicIntegerArray;
 
 /**
- * 描述：     演示原子数组的使用方法
+ * 描述: 演示原子数组的使用方法
  */
 public class AtomicArrayDemo {
 

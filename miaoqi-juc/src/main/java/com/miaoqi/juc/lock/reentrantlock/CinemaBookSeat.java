@@ -3,7 +3,7 @@ package com.miaoqi.juc.lock.reentrantlock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * 描述：     演示多线程预定电影院座位
+ * 描述: 演示多线程预定电影院座位
  */
 public class CinemaBookSeat {
 

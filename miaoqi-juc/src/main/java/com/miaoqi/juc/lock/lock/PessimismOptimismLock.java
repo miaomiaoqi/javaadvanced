@@ -3,7 +3,7 @@ package com.miaoqi.juc.lock.lock;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * 描述：     TODO
+ * 描述: TODO
  */
 public class PessimismOptimismLock {
 

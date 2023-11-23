@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 描述：     演示Collections.synchronizedList(new ArrayList<E>())
+ * 描述: 演示Collections.synchronizedList(new ArrayList<E>())
  */
 public class SynList {
 

@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 描述：     最简单的缓存形式：HashMap
+ * 描述: 最简单的缓存形式：HashMap
  */
 public class ImoocCache1 {
 

@@ -4,7 +4,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
 /**
- * 描述：     TODO
+ * 描述: TODO
  */
 public class ArrayBlockingQueueDemo {
 

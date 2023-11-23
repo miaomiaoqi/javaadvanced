@@ -1,14 +1,14 @@
 package com.miaoqi.juc.imooccache;
 
 
-import com.miaoqi.imooc.concurrency.tools.imooccache.computable.Computable;
-import com.miaoqi.imooc.concurrency.tools.imooccache.computable.ExpensiveFunction;
+import com.miaoqi.juc.imooccache.computable.Computable;
+import com.miaoqi.juc.imooccache.computable.ExpensiveFunction;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 描述：     用装饰者模式，给计算器自动添加缓存功能
+ * 描述: 用装饰者模式，给计算器自动添加缓存功能
  */
 public class ImoocCache2<A, V> implements Computable<A, V> {
 
