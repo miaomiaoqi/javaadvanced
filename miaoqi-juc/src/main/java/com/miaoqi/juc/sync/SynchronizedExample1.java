@@ -6,7 +6,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * synchronized作用域
+ * synchronized 作用域
  *
  * @author miaoqi
  * @date 2018/11/6

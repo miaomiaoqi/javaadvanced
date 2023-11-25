@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 
 /**
- * 描述: 演示Semaphore用法
+ * 描述: 演示 Semaphore 用法
  */
 public class SemaphoreDemo {
 

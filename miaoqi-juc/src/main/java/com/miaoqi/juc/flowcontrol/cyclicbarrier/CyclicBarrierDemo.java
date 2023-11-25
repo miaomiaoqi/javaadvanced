@@ -4,15 +4,16 @@ import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
 /**
- * 描述：    演示CyclicBarrier
+ * 描述: 演示 CyclicBarrier
  */
 public class CyclicBarrierDemo {
 
     public static void main(String[] args) {
+        // parties 就是有几个线程调用 await 方法, 可重复使用
         CyclicBarrier cyclicBarrier = new CyclicBarrier(5, new Runnable() {
             @Override
             public void run() {
-                System.out.println("所有人都到场了， 大家统一出发！");
+                System.out.println("所有人都到场了, 大家统一出发！");
             }
         });
         for (int i = 0; i < 10; i++) {

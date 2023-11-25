@@ -3,7 +3,7 @@ package com.miaoqi.juc.lock.readwrite;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- * 描述: 演示非公平和公平的ReentrantReadWriteLock的策略
+ * 描述: 演示非公平和公平的 ReentrantReadWriteLock 的策略
  */
 public class NonfairBargeDemo {
 

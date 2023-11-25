@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 描述: 模拟100米跑步，5名选手都准备好了，只等裁判员一声令下，所有人同时开始跑步。
+ * 描述: 模拟 100 米跑步，5 名选手都准备好了，只等裁判员一声令下，所有人同时开始跑步。
  */
 public class CountDownLatchDemo2 {
 

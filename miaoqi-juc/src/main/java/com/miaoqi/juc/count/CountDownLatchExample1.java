@@ -10,7 +10,7 @@ import java.util.concurrent.Semaphore;
 
 @Slf4j
 @NotThreadSafe
-public class CountExample1 {
+public class CountDownLatchExample1 {
 
     // 请求总数
     public static int clientTotal = 5000;
