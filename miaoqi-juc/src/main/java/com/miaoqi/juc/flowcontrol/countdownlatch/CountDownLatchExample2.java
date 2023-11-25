@@ -1,16 +1,17 @@
-package com.miaoqi.juc.count;
+package com.miaoqi.juc.flowcontrol.countdownlatch;
 
-import com.miaoqi.juc.annotations.NotThreadSafe;
+import com.miaoqi.juc.annotations.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
+import java.util.concurrent.atomic.AtomicInteger;
 
 @Slf4j
-@NotThreadSafe
-public class CountDownLatchExample4 {
+@ThreadSafe
+public class CountDownLatchExample2 {
 
     // 请求总数
     public static int clientTotal = 5000;
@@ -18,7 +19,7 @@ public class CountDownLatchExample4 {
     // 同时并发执行的线程数
     public static int threadTotal = 200;
 
-    public static volatile int count = 0;
+    public static AtomicInteger count = new AtomicInteger(0);
 
     public static void main(String[] args) throws Exception {
         ExecutorService executorService = Executors.newCachedThreadPool();
@@ -38,14 +39,12 @@ public class CountDownLatchExample4 {
         }
         countDownLatch.await();
         executorService.shutdown();
-        log.info("count: {}", count);
+        log.info("count: {}", count.get());
     }
 
     public static void add() {
-        count++;
-        // 1. count
-        // 2. +1
-        // 3. count
+        count.incrementAndGet();
+        // count.getAndIncrement();
     }
 
 }

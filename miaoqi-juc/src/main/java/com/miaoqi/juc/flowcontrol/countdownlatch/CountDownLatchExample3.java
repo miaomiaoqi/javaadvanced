@@ -1,6 +1,6 @@
-package com.miaoqi.juc.count;
+package com.miaoqi.juc.flowcontrol.countdownlatch;
 
-import com.miaoqi.juc.annotations.NotThreadSafe;
+import com.miaoqi.juc.annotations.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.CountDownLatch;
@@ -9,8 +9,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 
 @Slf4j
-@NotThreadSafe
-public class CountDownLatchExample1 {
+@ThreadSafe
+public class CountDownLatchExample3 {
 
     // 请求总数
     public static int clientTotal = 5000;
@@ -41,7 +41,7 @@ public class CountDownLatchExample1 {
         log.info("count: {}", count);
     }
 
-    public static void add() {
+    public synchronized static void add() {
         count++;
     }
 

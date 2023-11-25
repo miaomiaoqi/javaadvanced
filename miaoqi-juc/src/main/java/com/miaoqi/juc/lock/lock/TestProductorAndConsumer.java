@@ -1,4 +1,4 @@
-package com.miaoqi.juc.lock;
+package com.miaoqi.juc.lock.lock;
 
 /*
  * 生产者和消费者案例
@@ -56,7 +56,7 @@ class Clerk {
     }
 }
 
-//生产者
+// 生产者
 class Productor implements Runnable {
     private Clerk clerk;
 

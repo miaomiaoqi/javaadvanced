@@ -1,4 +1,4 @@
-package com.miaoqi.juc.lock;
+package com.miaoqi.juc.lock.lock;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
