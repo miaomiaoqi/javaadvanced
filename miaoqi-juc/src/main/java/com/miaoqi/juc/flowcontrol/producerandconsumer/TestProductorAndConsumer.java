@@ -1,4 +1,4 @@
-package com.miaoqi.juc.lock.lock;
+package com.miaoqi.juc.flowcontrol.producerandconsumer;
 
 /*
  * 生产者和消费者案例
@@ -26,7 +26,7 @@ class Clerk {
 
     //进货
     public synchronized void get() { // 循环次数：0
-        while (product >= 1) { // 为了避免虚假唤醒问题，应该总是使用在循环中
+        while (this.product >= 1) { // 为了避免虚假唤醒问题，应该总是使用在循环中
             System.out.println("产品已满！");
 
             try {
@@ -36,13 +36,13 @@ class Clerk {
 
         }
 
-        System.out.println(Thread.currentThread().getName() + " : " + ++product);
+        System.out.println(Thread.currentThread().getName() + " : " + ++this.product);
         this.notifyAll();
     }
 
     // 卖货
     public synchronized void sale() {//product = 0; 循环次数：0
-        while (product <= 0) {
+        while (this.product <= 0) {
             System.out.println("缺货！");
 
             try {
@@ -51,7 +51,7 @@ class Clerk {
             }
         }
 
-        System.out.println(Thread.currentThread().getName() + " : " + --product);
+        System.out.println(Thread.currentThread().getName() + " : " + --this.product);
         this.notifyAll();
     }
 }
@@ -72,7 +72,7 @@ class Productor implements Runnable {
             } catch (InterruptedException e) {
             }
 
-            clerk.get();
+            this.clerk.get();
         }
     }
 }
@@ -88,7 +88,7 @@ class Consumer implements Runnable {
     @Override
     public void run() {
         for (int i = 0; i < 20; i++) {
-            clerk.sale();
+            this.clerk.sale();
         }
     }
 }

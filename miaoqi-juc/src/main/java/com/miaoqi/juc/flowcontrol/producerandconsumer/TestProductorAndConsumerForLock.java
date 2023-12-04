@@ -1,4 +1,4 @@
-package com.miaoqi.juc.lock.lock;
+package com.miaoqi.juc.flowcontrol.producerandconsumer;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
@@ -27,51 +27,51 @@ class ClerkLock {
     private int product = 0;
 
     private Lock lock = new ReentrantLock();
-    private Condition condition = lock.newCondition();
+    private Condition condition = this.lock.newCondition();
 
     // 进货
     public void get() {
-        lock.lock();
+        this.lock.lock();
 
         try {
-            if (product >= 1) { // 为了避免虚假唤醒，应该总是使用在循环中。
+            if (this.product >= 1) { // 为了避免虚假唤醒，应该总是使用在循环中。
                 System.out.println("产品已满！");
 
                 try {
-                    condition.await();
+                    this.condition.await();
                 } catch (InterruptedException e) {
                 }
 
             }
-            System.out.println(Thread.currentThread().getName() + " : " + ++product);
+            System.out.println(Thread.currentThread().getName() + " : " + ++this.product);
 
-            condition.signalAll();
+            this.condition.signalAll();
         } finally {
-            lock.unlock();
+            this.lock.unlock();
         }
 
     }
 
     // 卖货
     public void sale() {
-        lock.lock();
+        this.lock.lock();
 
         try {
-            if (product <= 0) {
+            if (this.product <= 0) {
                 System.out.println("缺货！");
 
                 try {
-                    condition.await();
+                    this.condition.await();
                 } catch (InterruptedException e) {
                 }
             }
 
-            System.out.println(Thread.currentThread().getName() + " : " + --product);
+            System.out.println(Thread.currentThread().getName() + " : " + --this.product);
 
-            condition.signalAll();
+            this.condition.signalAll();
 
         } finally {
-            lock.unlock();
+            this.lock.unlock();
         }
     }
 }
@@ -94,7 +94,7 @@ class ProductorLock implements Runnable {
                 e.printStackTrace();
             }
 
-            clerk.get();
+            this.clerk.get();
         }
     }
 }
@@ -111,7 +111,7 @@ class ConsumerLock implements Runnable {
     @Override
     public void run() {
         for (int i = 0; i < 20; i++) {
-            clerk.sale();
+            this.clerk.sale();
         }
     }
 
