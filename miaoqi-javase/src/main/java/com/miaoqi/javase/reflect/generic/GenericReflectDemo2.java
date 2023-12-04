@@ -1,6 +1,7 @@
 package com.miaoqi.javase.reflect.generic;
 
-import com.miaoqi.java.reflect.bean.PersonDao;
+
+import com.miaoqi.javase.reflect.bean.PersonDao;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.ParameterizedType;

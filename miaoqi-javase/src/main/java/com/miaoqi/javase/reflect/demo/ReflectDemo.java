@@ -1,7 +1,7 @@
 package com.miaoqi.javase.reflect.demo;
 
-import com.miaoqi.java.reflect.bean.Person;
 
+import com.miaoqi.javase.reflect.bean.Person;
 
 /**
  * JAVA反射机制是在运行状态中，对于任意一个类 (class文件)，都能够知道这个类的所有属性和方法；

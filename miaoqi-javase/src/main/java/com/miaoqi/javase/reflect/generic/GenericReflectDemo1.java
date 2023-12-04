@@ -1,6 +1,7 @@
 package com.miaoqi.javase.reflect.generic;
 
-import com.miaoqi.java.reflect.bean.PersonDao;
+
+import com.miaoqi.javase.reflect.bean.PersonDao;
 
 /**
  * 子类继承父类, 并且实现一个接口
