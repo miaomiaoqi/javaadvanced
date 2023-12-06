@@ -1,4 +1,4 @@
-package com.miaoqi.juc.flowcontrol.condition;
+package com.miaoqi.juc.lock.condition;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
@@ -56,20 +56,20 @@ class AlternateDemo {
     private int number = 1; //当前正在执行线程的标记
 
     private Lock lock = new ReentrantLock();
-    private Condition condition1 = lock.newCondition();
-    private Condition condition2 = lock.newCondition();
-    private Condition condition3 = lock.newCondition();
+    private Condition condition1 = this.lock.newCondition();
+    private Condition condition2 = this.lock.newCondition();
+    private Condition condition3 = this.lock.newCondition();
 
     /**
      * @param totalLoop : 循环第几轮
      */
     public void loopA(int totalLoop) {
-        lock.lock();
+        this.lock.lock();
 
         try {
             //1. 判断
-            if (number != 1) {
-                condition1.await();
+            if (this.number != 1) {
+                this.condition1.await();
             }
 
             //2. 打印
@@ -78,22 +78,22 @@ class AlternateDemo {
             }
 
             //3. 唤醒
-            number = 2;
-            condition2.signal();
+            this.number = 2;
+            this.condition2.signal();
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            lock.unlock();
+            this.lock.unlock();
         }
     }
 
     public void loopB(int totalLoop) {
-        lock.lock();
+        this.lock.lock();
 
         try {
             //1. 判断
-            if (number != 2) {
-                condition2.await();
+            if (this.number != 2) {
+                this.condition2.await();
             }
 
             //2. 打印
@@ -102,22 +102,22 @@ class AlternateDemo {
             }
 
             //3. 唤醒
-            number = 3;
-            condition3.signal();
+            this.number = 3;
+            this.condition3.signal();
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            lock.unlock();
+            this.lock.unlock();
         }
     }
 
     public void loopC(int totalLoop) {
-        lock.lock();
+        this.lock.lock();
 
         try {
             //1. 判断
-            if (number != 3) {
-                condition3.await();
+            if (this.number != 3) {
+                this.condition3.await();
             }
 
             //2. 打印
@@ -126,12 +126,12 @@ class AlternateDemo {
             }
 
             //3. 唤醒
-            number = 1;
-            condition1.signal();
+            this.number = 1;
+            this.condition1.signal();
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            lock.unlock();
+            this.lock.unlock();
         }
     }
 }
@@ -169,7 +169,7 @@ class TestABC {
     }
 
     public synchronized void printA() {
-        while (num != 0) {
+        while (this.num != 0) {
             try {
                 this.wait();
             } catch (InterruptedException e) {
@@ -177,12 +177,12 @@ class TestABC {
             }
         }
         System.out.println(Thread.currentThread().getName());
-        num = 1;
+        this.num = 1;
         this.notifyAll();
     }
 
     public synchronized void printB() {
-        while (num != 1) {
+        while (this.num != 1) {
             try {
                 this.wait();
             } catch (InterruptedException e) {
@@ -190,12 +190,12 @@ class TestABC {
             }
         }
         System.out.println(Thread.currentThread().getName());
-        num = 2;
+        this.num = 2;
         this.notifyAll();
     }
 
     public synchronized void printC() {
-        while (num != 2) {
+        while (this.num != 2) {
             try {
                 this.wait();
             } catch (InterruptedException e) {
@@ -203,7 +203,7 @@ class TestABC {
             }
         }
         System.out.println(Thread.currentThread().getName());
-        num = 0;
+        this.num = 0;
         this.notifyAll();
     }
 }
@@ -212,9 +212,9 @@ class TestABCLock {
 
     private int num = 0;
     private Lock lock = new ReentrantLock();
-    Condition conditionA = lock.newCondition();
-    Condition conditionB = lock.newCondition();
-    Condition conditionC = lock.newCondition();
+    Condition conditionA = this.lock.newCondition();
+    Condition conditionB = this.lock.newCondition();
+    Condition conditionC = this.lock.newCondition();
 
     public static void main(String[] args) {
         TestABCLock abc = new TestABCLock();
@@ -246,52 +246,52 @@ class TestABCLock {
 
     public void printA() {
         try {
-            lock.lock();
-            if (num != 0) {
+            this.lock.lock();
+            if (this.num != 0) {
                 try {
-                    conditionA.await();
+                    this.conditionA.await();
                 } catch (InterruptedException e) {
                 }
             }
             System.out.print(Thread.currentThread().getName());
-            num++;
-            conditionB.signal();
+            this.num++;
+            this.conditionB.signal();
         } finally {
-            lock.unlock();
+            this.lock.unlock();
         }
     }
 
     public void printB() {
         try {
-            lock.lock();
-            if (num != 1) {
+            this.lock.lock();
+            if (this.num != 1) {
                 try {
-                    conditionB.await();
+                    this.conditionB.await();
                 } catch (InterruptedException e) {
                 }
             }
             System.out.print(Thread.currentThread().getName());
-            num++;
-            conditionC.signal();
+            this.num++;
+            this.conditionC.signal();
         } finally {
-            lock.unlock();
+            this.lock.unlock();
         }
     }
 
     public void printC() {
         try {
-            lock.lock();
-            if (num != 2) {
+            this.lock.lock();
+            if (this.num != 2) {
                 try {
-                    conditionC.await();
+                    this.conditionC.await();
                 } catch (InterruptedException e) {
                 }
             }
             System.out.print(Thread.currentThread().getName());
-            num++;
-            conditionA.signal();
+            this.num++;
+            this.conditionA.signal();
         } finally {
-            lock.unlock();
+            this.lock.unlock();
         }
     }
 }

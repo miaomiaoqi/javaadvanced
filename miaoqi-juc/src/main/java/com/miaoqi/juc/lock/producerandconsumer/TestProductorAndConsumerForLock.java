@@ -1,4 +1,4 @@
-package com.miaoqi.juc.flowcontrol.producerandconsumer;
+package com.miaoqi.juc.lock.producerandconsumer;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;

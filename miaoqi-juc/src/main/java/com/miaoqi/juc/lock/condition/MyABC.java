@@ -1,4 +1,4 @@
-package com.miaoqi.juc.flowcontrol.condition;
+package com.miaoqi.juc.lock.condition;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
@@ -40,38 +40,38 @@ class MyABCLoop1 {
     private Integer num = 1;
 
     public synchronized void loopA() {
-        while (num != 1) {
+        while (this.num != 1) {
             try {
                 this.wait();
             } catch (InterruptedException e) {
             }
         }
         System.out.print("A");
-        num = 2;
+        this.num = 2;
         this.notifyAll();
     }
 
     public synchronized void loopB() {
-        while (num != 2) {
+        while (this.num != 2) {
             try {
                 this.wait();
             } catch (InterruptedException e) {
             }
         }
         System.out.print("B");
-        num = 3;
+        this.num = 3;
         this.notifyAll();
     }
 
     public synchronized void loopC() {
-        while (num != 3) {
+        while (this.num != 3) {
             try {
                 this.wait();
             } catch (InterruptedException e) {
             }
         }
         System.out.print("C");
-        num = 1;
+        this.num = 1;
         this.notifyAll();
     }
 }
@@ -81,55 +81,55 @@ class MyABCLoop2 {
     private Integer num = 1;
 
     private Lock lock = new ReentrantLock();
-    Condition conditionA = lock.newCondition();
-    Condition conditionB = lock.newCondition();
-    Condition conditionC = lock.newCondition();
+    Condition conditionA = this.lock.newCondition();
+    Condition conditionB = this.lock.newCondition();
+    Condition conditionC = this.lock.newCondition();
 
     public void loopA() {
         try {
-            lock.lock();
-            if (num != 1) {
-                conditionA.await();
+            this.lock.lock();
+            if (this.num != 1) {
+                this.conditionA.await();
             }
             System.out.print("A");
-            num = 2;
-            conditionB.signal();
+            this.num = 2;
+            this.conditionB.signal();
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            lock.unlock();
+            this.lock.unlock();
         }
     }
 
     public void loopB() {
         try {
-            lock.lock();
-            if (num != 2) {
-                conditionB.await();
+            this.lock.lock();
+            if (this.num != 2) {
+                this.conditionB.await();
             }
             System.out.print("B");
-            num = 3;
-            conditionC.signal();
+            this.num = 3;
+            this.conditionC.signal();
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            lock.unlock();
+            this.lock.unlock();
         }
     }
 
     public void loopC() {
         try {
-            lock.lock();
-            if (num != 3) {
-                conditionC.await();
+            this.lock.lock();
+            if (this.num != 3) {
+                this.conditionC.await();
             }
             System.out.print("C");
-            num = 1;
-            conditionA.signal();
+            this.num = 1;
+            this.conditionA.signal();
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            lock.unlock();
+            this.lock.unlock();
         }
     }
 }

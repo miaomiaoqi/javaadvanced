@@ -1,4 +1,4 @@
-package com.miaoqi.juc.flowcontrol.condition;
+package com.miaoqi.juc.lock.condition;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;

@@ -1,4 +1,4 @@
-package com.miaoqi.juc.flowcontrol.producerandconsumer;
+package com.miaoqi.juc.lock.producerandconsumer;
 
 /*
  * 生产者和消费者案例
