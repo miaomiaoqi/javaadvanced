@@ -141,7 +141,7 @@ class TestABC {
     private int num = 0;
 
     public static void main(String[] args) {
-        TestABC abc = new TestABC();
+        TestABCLock abc = new TestABCLock();
         new Thread(new Runnable() {
             @Override
             public void run() {
