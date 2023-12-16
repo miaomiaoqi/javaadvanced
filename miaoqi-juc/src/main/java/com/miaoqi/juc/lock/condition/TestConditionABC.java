@@ -46,6 +46,7 @@ class ShareData {
         try {
             this.lock.lock();
             while (this.number != 1) {
+                // await 方法会释放所, 但线程会被阻塞在这里
                 this.condition1.await();
             }
             System.out.println("A");
